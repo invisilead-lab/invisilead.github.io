@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>InvisiLead</title>
   <style>
+    :root {
+      --color-primary: #4b0082;
+      --color-secondary: #e0d7f6;
+      --color-bg: #1a0033;
+    }
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f4f4f4;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-secondary);
+      line-height: 1.6;
     }
     header {
-      background-color: #4b0082;
+      background-color: var(--color-primary);
       color: white;
       padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
     }
     main {
-      padding: 40px;
+      padding: 20px;
     }
+    /* Add more styles as needed */
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to InvisiLead</h1>
+    <img src="logo.png" alt="InvisiLead Logo" />
+    <h1>InvisiLead</h1>
+    <p>Digital Marketing Agency</p>
   </header>
+
   <main>
-    <p>Your Digital Marketing Agency for IT Companies</p>
-  </main>
-</body>
-</html>
+    <p>Welcome to InvisiLead
